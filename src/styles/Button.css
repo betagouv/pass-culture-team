@@ -1,0 +1,33 @@
+button {
+	border: none;
+	border-radius: 5px;
+	background-color: darkblue;
+	color: white;
+	margin: 2px 5px;
+	padding: 5px 5px;
+	font-weight: bold;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+button .red {
+	background-color: red;
+	color: white;
+}
+
+button .orange {
+	background-color: orange;
+	color: white;
+}
+
+button .green {
+	background-color: green;
+	color: white;
+}
+
+.buttonList {
+	margin-bottom: 10px;
+}

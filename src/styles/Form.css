@@ -1,0 +1,43 @@
+form,
+form label,
+form input {
+	font-family: 'Lato', sans-serif;
+	/*display: block;*/
+}
+
+form {
+	width: auto;
+}
+
+form label {
+	min-width: 50px;
+	float: left;
+}
+
+form input {
+	padding: 3px;
+	margin: 5px;
+	background: none;
+	vertical-align: middle;
+	max-width: 100%;
+	min-width: 200px;
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	font-size: 0.9em;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-style: italic;
+	/*opacity: 1;  Firefox */
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	font-style: italic;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	font-style: italic;
+}

@@ -1,0 +1,10 @@
+.env
+.env.development
+yarn.lock
+yarn-error.log
+/node_modules
+.eslintrc
+.eslintignore
+.prettierrc.json
+.prettierignore
+.DS_Store

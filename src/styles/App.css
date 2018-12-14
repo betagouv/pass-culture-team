@@ -1,0 +1,121 @@
+.App {
+	font-family: 'Lato', sans-serif;
+}
+
+section {
+	margin: 20px 2%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+}
+
+p {
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+small {
+	color: grey;
+}
+
+/******** HEADER ********/
+
+header .mainTitle,
+header .mainTitle > h1,
+header > nav,
+nav > ul,
+nav > ul > li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header > nav,
+header > nav > ul {
+	margin: 0;
+	padding: 0;
+}
+
+header > nav > ul > li {
+	margin: 5px;
+}
+
+header .mainTitle h1 {
+	margin: 5px 10px 5px 15px;
+}
+
+/******** FOOTER ********/
+
+footer {
+	padding: 20px;
+	width: 100%;
+	background: #391088;
+	bottom: 0;
+	text-align: right;
+}
+
+footer > a {
+	padding-right: 40px;
+	color: white;
+}
+
+.PendingItem {
+	border: solid grey 1px;
+	border-radius: 5px;
+}
+
+/******** GENERIC ********/
+
+.done {
+	/*background: #ededed;*/
+	/*color: grey;*/
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.ok {
+	color: green;
+}
+
+.orange {
+	color: orange;
+}
+
+.red {
+	color: red;
+}
+
+.pc-col {
+	color: #eb0055;
+}
+
+/******** PENDING_VALIDATIONS ********/
+
+.UserOfferer {
+	border-top: dashed blue 1px;
+	margin-top: 10px;
+}
+
+.PendingItem {
+	margin: 0 0 20px 2%;
+	padding: 0 20px 10px 20px;
+	display: inline-block;
+	width: 27%;
+	vertical-align: top;
+}
+
+/******** SIRENE_INFOS ********/
+
+.SireneInfos {
+	color: grey;
+}
