@@ -8,3 +8,5 @@ yarn-error.log
 .prettierrc.json
 .prettierignore
 .DS_Store
+
+build/
