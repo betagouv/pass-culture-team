@@ -8,6 +8,7 @@ else
   exit 1
 fi
 
+
 if [[ "$ENV" == "production" ]]; then
   export REACT_APP_API_URL=https://backend.passculture.beta.gouv.fr/
 elif [[ "$ENV" == "testing" ]]; then
